@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<pre>Excecution:
+  cd to directory group_0368/project/ 
+  Paste commands:
+    javac -sourcepath ./src -d ./bin ./src/warehouse/*.java
+    java -cp ./bin warehouse.WarehouseSystem ./orders.txt ./inventory_dimensions.csv ./traversal_table.csv ./translation.csv ./initial.csv  
+
+  Alternative Order files: 
+    orders_repick.txt
+    orders_rescan.txt
+    orders_sequence_error.txt
+    *Note: You can use # to comment lines out for testing
+
+Simulation console log numbers correspond with input line numbers.
+
+Input files:
+  inventory layout: traversal_table.csv
+  inventory input: initial.csv
+  order translation: translation.csv
+
+Output files:
+  order output: orders.csv
+  inventory output: final.csv
+
+Test suite:
+  TestSuite.java
+  
+</pre>
+</body>
+</html>

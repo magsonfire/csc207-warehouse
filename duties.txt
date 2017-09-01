@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<pre>Daniel
+-Implemented Sequencer Rescan
+-Assisted with Sequencer Tests
+-Converted Sequencer from simulation to scanning each item on pallet
+
+Jamie
+- Improved relationship between managers and workers, better representing model/controller relationship
+- Added exception handling in managers and workers for when they make mistakes
+  - This includes pickers being corrected when wrongly picking
+- Wrote new tests for managers, workers, and job to cover new functionality from phase 1
+- Improved logging from part 1 to take advantage of built in logger, log errors
+- Added simulation order files and changed them to conform to new event reporting
+
+Maggie
+- Added Zone object for zone name flexibility
+- Modified Location and Zone to implement algorithm calculaitng location&#39;s index within Zone ArrayList
+- Completed new UML with added associations
+- Created presentation/walkthrough slides
+- Improved exceptions checking input files for inventory setup
+
+Queenie
+- Assisted in rescan event
+- Updated unit tests
+- Finished with checkstyle
+</pre>
+</body>
+</html>
